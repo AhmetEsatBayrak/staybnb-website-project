@@ -508,6 +508,11 @@ nav.navbar-white .fa-bars {
     line-height: 30px;
     font-size: 12px;
   }
+  .host {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 /*-----------house-details-page-----------*/
 .house-details {
@@ -566,9 +571,6 @@ nav.navbar-white .fa-bars {
   background: #fff;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
   border-radius: 8px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   padding: 10px 50px;
 }
 .check-form label {
@@ -682,9 +684,7 @@ nav.navbar-white .fa-bars {
     margin: 10px 0;
     font-size: 18px;
   }
-  .check-form {
-    padding: 10px 30px;
-  }
+
   .check-form div {
     padding: 20px 0;
     width: 100%;
@@ -699,6 +699,12 @@ nav.navbar-white .fa-bars {
     margin-top: 10px;
     margin-bottom: 15px;
     border-radius: 4px;
+  }
+  .house-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 }
 .host {
