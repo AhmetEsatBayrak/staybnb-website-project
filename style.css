@@ -56,7 +56,6 @@ nav {
 .search-bar form {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
 }
 .search-bar form input {
   display: block;
@@ -104,13 +103,13 @@ nav {
   border-radius: 10px;
 }
 .exclusives div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
 }
 .exclusives div span {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
 }
@@ -167,6 +166,9 @@ nav {
 }
 .stories div {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 .stories div img {
@@ -176,9 +178,6 @@ nav {
 .stories p {
   width: 80%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: #fff;
   font-size: 26px;
 }
@@ -248,7 +247,7 @@ nav .fa-bars {
   display: none;
 }
 /*--------for small screen devices----------*/
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1290px) {
   .logo {
     position: fixed;
     top: 4%;
@@ -483,7 +482,7 @@ nav.navbar-white .fa-bars {
   color: #fff;
 }
 /*-------small screen for listing page------*/
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1290px) {
   .list-container {
     margin-top: 150px;
   }
@@ -708,4 +707,6 @@ nav.navbar-white .fa-bars {
 }
 .contact-host {
   margin: 40px 0;
+}
+.san-francisco {
 }
